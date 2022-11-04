@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+    background-color: rgba(129, 121, 121, 0.87);
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards .card{
+    background: #24303c;
+    display: flex;
+    width: 90%;
+    height: 120px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 5px 4px 6px 5px #109ef0c9, 7px 4px 5px 6px rgba(10, 228, 119, 0.849);
+}
+
+.cards .na_estudiante{
+    width: 90px;
+    height: 90px;
+    font-size: 70px;
+    color:#fff;
+    background-color: #39424b;
+    text-align: center;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    
+}
+
+.cards .titulo{
+    color: #ffff;
+    font-size: 60px;
+    text-align: center;
+}
+
+.cards .name_estudiante{
+    font-size: 40px;
+    text-decoration: underline;
+    color:#fff;
+    text-align: center;
+    
+}
+
+.control{
+    overflow: hidden;
+    width: 400px;
+    background: #24303c;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000; 
+}
+
+.control .name-text{
+    font-size: 22px;
+    margin-bottom: 20px; 
+}
+
+.control .name-text1{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #13e3eb;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.control1{
+    overflow: hidden;
+    width: 400px;
+    background: #24303c;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000; 
+}
+
+.control1 .date_1{
+    font-size: 22px;
+    margin-bottom: 20px; 
+}
+
+.control1 .date_01{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #13e3eb;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white; 
+}
+
+.control1 .btn_calcular{
+    border-radius: 10px;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    background: #13e3eb;
+    border: none;
+    color: white;
+    margin: 6px 0;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.control1 .btn_calcular:hover{
+    border-radius: 10px;
+    padding: 14px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    background: #13e3eb;
+    border: none;
+    color: white;
+    margin: 8px 0;
+    font-size: 16px;
+    box-shadow: 0 4px 6px 0 #109ef0c9, 0 4px 5px 0 rgba(10, 228, 119, 0.849);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.control1 .resuesta{
+    margin-top: 20px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
